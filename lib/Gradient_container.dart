@@ -17,6 +17,7 @@ class GradientContainer extends StatelessWidget{
                 Colors.purple,Colors.deepPurple
               ])
       ),
+      child: Image.asset('assets/dice-1.png'),
     );
   }
 }
