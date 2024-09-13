@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rolldice/Gradient_container.dart';
+import 'package:rolldice/components/Gradient_container.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,9 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: GradientContainer()
+        body: GradientContainer(
+
+        )
       ),
     );
 
